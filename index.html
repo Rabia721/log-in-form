@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!------------ IMPORTING FONTS ---------->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <title>Form</title>
+
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+        .form
+        {
+            border: 1px solid #000;
+            width: 25%;
+            height: 40vh;
+            margin-top: 10%;
+            margin-left: 32%;
+        }
+        .form .title
+        {
+            text-align: center;
+        }
+        .form .signup 
+        {
+            margin-left: 80%;
+            text-decoration: none;
+            color: #000;
+        }
+        .form label
+        {
+            display: block;
+            margin-left: 20%;
+            margin-top: 10px;
+        }
+        .form input
+        {
+            margin-left: 20%;
+            padding: 8px;
+            border-radius: 8px;
+            border: none;
+            border: 1px solid #ccc;
+        }
+        .form button
+        {
+            display: block;
+            margin-top: 10px;
+            margin-left: 20%;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form class="form">
+        <a href="#" class="signup" >Sign up</a>
+        <h1 class="title">Login</h1>
+        <label for="fname">First name <span style="color: red;">*Required*</span></label>
+        <input type="text" required />
+        <label for="lname">Last Name <span style="color: red;">*Required*</span></label>
+        <input type="text" requied />
+        <button>Submit</button>
+    </form>
+</body>
+</html>
